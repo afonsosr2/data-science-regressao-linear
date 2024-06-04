@@ -1,7 +1,5 @@
 # Curso Data Science: transformando variáveis para uma Regressão Linear
 
-### EM CONSTRUÇÃO...
-
 Boas-vindas a mais um curso de **Data Science** da Alura! 
 
 Esse Github foi produzido com muito carinho para você montar o seu portfólio com as atividades do curso e elaborar suas próprias hipóteses, testar as técnicas exploradas dentro do curso e também adicionar outras durante a prática conciliando a linguagem Python e os conhecimentos de Machine Learning voltado a técnica de Regressão Linear.
@@ -16,19 +14,19 @@ Este projeto possibilita sair da leitura de dados de arquivos .CSV extraído des
 
 Este projeto tem como objetivo estimar o preço de casas utilizando um modelo de regressão linear com transformação de variáveis. Através da análise de diversas características das propriedades, como área e localização, vamos desenvolver um modelo capaz de prever os preços de mercado para casas em diferentes cenários e condições. O storytelling do projeto gira em torno do desafio de tornar as avaliações de imóveis mais acessíveis e precisas, auxiliando tanto vendedores quanto compradores no processo de negociação.
 
-## Problema do Negócio
-*Espaço para a descrição do problema do negócio que o projeto visa resolver, incluindo o contexto de mercado e a necessidade específica dos stakeholders.*
-
 ## Base de Dados
-*Espaço para a explicação resumida da base de dados utilizada, incluindo fontes, número de registros, variáveis consideradas e qualquer pré-processamento aplicado.*
+Vamos utilizar a base `precos_casa.csv` adaptada de uma base bem conhecida no Kaggle chamada [House Prices](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data?select=train.csv). Fizemos algumas transformações e ajustes na base original para garantir um melhor aprendizado das técnicas apresentadas neste curso.
 
-Para isso vamos utilizar a base `precos_casa.csv` com mais de ... registros e com as seguintes variáveis:
+Você pode acessar a base de dados na pasta `dados` deste repositório ou seguir as instruções da aula em que leremos estes dados a partir deste repositório por meio de uma url.
 
-* **Variável Dependente (target):** ...
+Observe abaixo, os dados disponíveis em nossa base:
 
-* **Variáveis Explicativas:** ...
-
-Esses dados serão lidos a partir do repositório compartilhado pelo GitHub.
+* **valor**: valor da venda do imóvel em reais. Essa é a variável alvo que é o que se deseja prever de acordo com os atributos da propriedad
+* **area_primeiro_andar**: a área do primeiro andar do imóvel, medida em metros quadrados;
+* **existe_segundo_andar**: variável binária que indica se o imóvel possui ou não um segundo andar. Pode ser representada como 1 para "sim" e 0 para "não";
+* **area_quintal**: a área do primeiro quintal do imóvel, medida em metros quadrados;
+* **dist_metro**: distância do imóvel até o metrô mais próximo, em quilômetros;
+* **dist_parque**: distância do imóvel até o parque/praça mais próximo(a), em quilômetros;
 
 ## Desafio
 O desafio deste projeto consiste em:
@@ -38,11 +36,9 @@ O desafio deste projeto consiste em:
 - Interpretar os **coeficientes do modelo** para entender o impacto de cada variável no preço das casas.
 
 ## Projeto Final
-Para acessar o projeto final criado ao longo curso clique nesse [link](link_do_projeto).
+Para acessar o projeto final criado ao longo curso clique nesse [link](Aula_05/Projeto%20Final%20-%20Regress%C3%A3o%20Linear.ipynb).
 
 ## Conclusão
-*Espaço para uma pequena conclusão que resume os principais resultados, aprendizados e possíveis próximos passos no projeto.*
-
 Este README serve como um guia inicial para qualquer pessoa que esteja interessada em trabalhar com o projeto de precificação de casas e aprender mais sobre técnincas de Machine Learning aplicadas à regressão linear. 
 
 Ao concluir este curso, você será capaz de gerar um **Jupyter Notebook** (Google Colab) com o processo da análise exploratória dos dados, transformação de variáveis, implementação e teste de um modelo de regressão linear de múltiplas variáveis, além de compreender o impacto dos coeficientes do modelo gerado para o exemplo de precificação de casas.
