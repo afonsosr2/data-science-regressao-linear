@@ -37,6 +37,7 @@ O desafio deste projeto consiste em:
 
 ## Projeto Final
 Para acessar o projeto final criado ao longo curso clique nesse [link](Aula_05/Projeto%20Final%20-%20Regress%C3%A3o%20Linear.ipynb).
+Você pode acessar [aqui](Aula_05/Precificando%20mais%20casas%20(Completo).ipynb) também o notebook com a resolução da precificação de mais casas e [aqui](Aula_05/Desafios_completo.ipynb) para a resolução final dos desafios do curso.
 
 ## Conclusão
 Este README serve como um guia inicial para qualquer pessoa que esteja interessada em trabalhar com o projeto de precificação de casas e aprender mais sobre técnincas de Machine Learning aplicadas à regressão linear. 
